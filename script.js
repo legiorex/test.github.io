@@ -15,3 +15,5 @@ result = x+y;
 document.write(result);
 result = result + x;
 document.write("<br/>"+result);
+document.write("<br/>"+result);
+document.write("<br/>"+result);
