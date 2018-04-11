@@ -11,6 +11,14 @@ function fun1() {
     }
 }
 
+function fun2() {
+    var radi = document.getElementsByName('r1');
+    for (var i = 0; i < radi.length; i++) {
+        if (radi[i].checked) {
+            alert ('Выбран ' +i+ ' элемент');
+        }
+    }
+}
 document.write("</br>Hello, World !");
 document.write("</br>Hello, World !");
 var number = 21;
